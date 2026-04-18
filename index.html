@@ -3,19 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Kyongsik Yun, Ph.D. — Technologist at the Jet Propulsion Laboratory, California Institute of Technology. Research in brain-inspired technologies, deep learning, computer vision, NLP, brain-computer interfaces, and noninvasive neuromodulation." />
+  <meta name="description" content="Kyongsik Yun, Ph.D. — Technologist at NASA's Jet Propulsion Laboratory, California Institute of Technology. Research in brain-inspired autonomous systems, time-series modeling, and machine learning." />
+  <meta property="og:title" content="Kyongsik Yun, Ph.D." />
+  <meta property="og:description" content="Technologist at NASA JPL / Caltech. Brain-inspired autonomous systems, multi-modal time-series modeling, and ML for space, earth, and health." />
+  <meta property="og:type" content="website" />
   <title>Kyongsik Yun, Ph.D.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#home">Kyongsik Yun, Ph.D.</a>
+      <a class="brand" href="#top">
+        <span class="brand-mark">KY</span>
+        <span class="brand-name">Kyongsik Yun, Ph.D.</span>
+      </a>
       <nav class="nav" aria-label="Primary">
-        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
         <a href="#news">News</a>
         <a href="#projects">Projects</a>
         <a href="#outreach">Outreach</a>
@@ -23,247 +30,381 @@
     </div>
   </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="container">
-        <h1>Kyongsik Yun, Ph.D.</h1>
-        <p class="lead">
-          Kyongsik Yun is a technologist at the <strong>Jet Propulsion Laboratory, California Institute of Technology</strong>,
-          and a senior member of the American Institute of Aeronautics and Astronautics (AIAA). His research focuses on
-          building brain-inspired technologies and systems, including deep learning computer vision, natural language
-          processing, brain-computer interfaces, and noninvasive remote neuromodulation.
-        </p>
-        <p>
-          He received the JPL Explorer Award (2019) for scientific and technical excellence in machine learning
-          applications. He also received the Marie Curie Fellowship for Neuroscience, the International Federation
-          for Medical and Biological Engineering (IFMBE) Young Investigator Award, and the Society for Neuroscience
-          (SfN) Hot Topic Award.
-        </p>
-        <p>
-          In addition to his research, Kyongsik co-founded two biotechnology companies, <em>Ybrain</em> and
-          <em>BBB Technologies</em>, that have raised $45 million in investment funding.
-        </p>
+  <main id="top">
+    <!-- HERO / BIO -->
+    <section id="about" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow"><span>01</span> &nbsp;/&nbsp; Bio</p>
+          <p class="lead">
+            Technologist at <strong>NASA's Jet Propulsion Laboratory, California Institute of Technology</strong>.
+            Senior member of AIAA. I build brain-inspired technologies and systems — spanning deep-learning computer
+            vision, natural-language processing, brain&ndash;computer interfaces, and multi-modal time-series modeling.
+          </p>
+          <p>
+            Recent work includes leading development of
+            <a href="https://nasa-ammos.github.io/slim/" target="_blank" rel="noopener">SLIM</a>
+            (Software Lifecycle Improvement &amp; Modernization), NASA's open-source initiative for automated integration
+            of software best practices using large language models; flight software engineering for the
+            <em>Mars Sample Return</em> sample retrieval lander; and onboard software for next-generation avionics
+            (Snapdragon, HPSC).
+          </p>
+          <p>
+            Awards include the JPL Voyager Award (2024, 2022, 2018), NASA Innovator Award (2022), JPL Explorer Award
+            (2019), Marie Curie Fellowship for Neuroscience, IFMBE Young Investigator Award, and the SfN Hot Topic
+            Award. I co-founded two biotechnology companies &mdash; <em>Ybrain</em> and <em>BBB Technologies</em> &mdash;
+            which raised $45M in investment funding.
+          </p>
+          <ul class="meta-list">
+            <li><span class="meta-k">Affiliation</span><span class="meta-v">NASA JPL &middot; Caltech</span></li>
+            <li><span class="meta-k">Education</span><span class="meta-v">Ph.D., KAIST &middot; Postdoc, Caltech CNS</span></li>
+            <li><span class="meta-k">Contact</span><span class="meta-v"><a href="mailto:kyongsik.yun@jpl.nasa.gov">kyongsik.yun@jpl.nasa.gov</a></span></li>
+            <li><span class="meta-k">Profiles</span><span class="meta-v">
+              <a href="https://scholar.google.com/citations?user=0651twUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar</a> &middot;
+              <a href="https://www.linkedin.com/in/kyongsikyun/" target="_blank" rel="noopener">LinkedIn</a> &middot;
+              <a href="https://www.jpl.nasa.gov/site/research/kyun/" target="_blank" rel="noopener">JPL</a>
+            </span></li>
+          </ul>
+        </div>
+        <aside class="hero-portrait">
+          <img
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUAMvfkdo7gy3c1a_jtL13qFf3UkolRw9ZYI9Fjp2w0muinZITJ8R3L_Jq_RpitGHqfzD05XrODspYs82NZ1gucZacFSszF0bRx8AFf0i0vQfn7xbBV9F7lJtha0pHlWjwC6ZN9xSMHhx7KAiiCxAymuVpszLi0npUUo9X524jkqzMUK2vN7RvZ4iPUX4q5oKtqdA9RPYrH72CPwJFFaFlj04AH4nQ=w1280"
+            alt="Kyongsik Yun" loading="eager" />
+        </aside>
       </div>
     </section>
 
-    <section id="news" class="section">
+    <!-- RESEARCH FOCUS -->
+    <section id="research" class="section">
       <div class="container">
-        <h2>News</h2>
-        <ul class="news-list">
-          <li>
-            <h3>NASA JPL Technology Highlights</h3>
-            <p>Remote estimation of geologic composition technology was selected as one of NASA JPL's Technology Highlights.
-              <a href="https://scienceandtechnology.jpl.nasa.gov/" target="_blank" rel="noopener">link</a>
-            </p>
-          </li>
-          <li>
-            <h3>JPL TALENTS 2021</h3>
-            <p>Featured as JPL TALENTS 2021 for the development of a soil composition estimation model.</p>
-          </li>
-          <li>
-            <h3>Multi-Agent Motion Planning using Deep Learning</h3>
-            <p>Built a deep learning-based numerical model, demonstrating superior computational efficiency of 1000× faster
-              than the mathematical model counterpart.
-              <a href="https://arc.aiaa.org/doi/10.2514/6.2020-4233" target="_blank" rel="noopener">link</a>
-            </p>
-          </li>
-          <li>
-            <h3>GSAW Best Presentation Award 2019</h3>
-            <p>Transforming Unstructured Data into Insight for Anomaly Detection in Exploration Ground Systems.</p>
-          </li>
-          <li>
-            <h3>JPL Explorer Award 2019</h3>
-            <p>JPL Explorer Award for Scientific and Technical Excellence in Deploying New Technologies to Support
-              Operations at KSC.</p>
-          </li>
-          <li>
-            <h3>Beer Goggles for Your Brain</h3>
-            <p>Electronic zaps to the scalp make faces appear more attractive.
-              <a href="https://www.newscientist.com/article/dn24005-beer-goggles-for-your-brain-make-faces-more-attractive/" target="_blank" rel="noopener">link</a>
-            </p>
-          </li>
-          <li>
-            <h3>Seoul Digital Forum</h3>
-            <p>This Wearable Can Help Cure Alzheimer's Disease.</p>
-          </li>
-          <li>
-            <h3>Wearable for Alzheimer's Patients</h3>
-            <p>Developed a brain signal processing/modulating platform and wearable brain healthcare device solution.
-              Designed large-scale clinical trials for the Class III medical device.</p>
-          </li>
-          <li>
-            <h3>Social Synchronicity</h3>
-            <p>Research finds a connection between bonding and matched movements.</p>
-          </li>
-        </ul>
+        <p class="eyebrow"><span>02</span> &nbsp;/&nbsp; Research Focus</p>
+        <h2>Three areas. One through-line: brain-inspired computation at scale.</h2>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <h3>Brain-Inspired Autonomous Systems</h3>
+            <p>Systems that emulate neurological principles &mdash; from event-driven sensing to neuromorphic control
+              for spacecraft and first-responder robotics.</p>
+          </article>
+          <article class="focus-card">
+            <h3>Multi-Modal Time-Series Modeling</h3>
+            <p>Fusing heterogeneous streams (InSAR, groundwater, telemetry, DSN) into unified forecasting and
+              anomaly-detection pipelines.</p>
+          </article>
+          <article class="focus-card">
+            <h3>Machine Learning Applications</h3>
+            <p>Deep-learning computer vision and NLP &mdash; applied to wildfire tracking, Mars EDL, medical
+              classification, and large-scale software engineering (SLIM/LLMs).</p>
+          </article>
+        </div>
+
+        <div class="awards">
+          <p class="eyebrow small"><span>Selected Awards</span></p>
+          <ul class="awards-list">
+            <li><span class="year">2024</span><span>JPL Voyager Award &mdash; SLIM with large language models</span></li>
+            <li><span class="year">2022</span><span>JPL Voyager Award &mdash; Multimodal data fusion, California Central Valley groundwater</span></li>
+            <li><span class="year">2022</span><span>NASA Innovator Award &mdash; Knowledge graphs for human space exploration</span></li>
+            <li><span class="year">2019</span><span>JPL Explorer Award &mdash; Deep-learning computer vision for DHS</span></li>
+            <li><span class="year">2018</span><span>JPL Voyager Award &mdash; Real-time data analytics for Kennedy Space Center</span></li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="section section-alt">
+    <!-- NEWS -->
+    <section id="news" class="section section-alt">
       <div class="container">
-        <h2>Projects</h2>
+        <p class="eyebrow"><span>03</span> &nbsp;/&nbsp; News</p>
+        <h2>Selected press, talks, and milestones.</h2>
+        <div class="news-grid">
+          <article class="news-card">
+            <div class="news-thumb"><img loading="lazy" alt="NASA JPL Technology Highlights"
+              src="https://lh3.googleusercontent.com/sitesv/AA5AbUCJAtqqqaKjzAX3ggs3dubqDtTQSoK67FwkUwX6pngpBu62IUISd2i7zfZNc5BGS1JPcpg2s6cEMhvhqpBnlaLfYdyIikdwcBw-NhnGgTBrLMgS6Bzfnz_YW9_odQv67YA1q-KWalUaw6tt5oWBinUgv84vXr0z5tthBFW17v9jU0FM65a7_9Ifox-UmbP2v7zf_4bK4omBPfBRMsNExmVkWJxPoX4r=w1280" /></div>
+            <div class="news-body">
+              <h3>NASA JPL Technology Highlights</h3>
+              <p>Remote estimation of geologic composition selected as one of JPL's Technology Highlights.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-thumb"><img loading="lazy" alt="JPL TALENTS 2021"
+              src="https://lh3.googleusercontent.com/sitesv/AA5AbUBiX309PlzM6yQW-gWBueWA8LunNf-NJ3POPfYJMEDcSsRm9gAHXuTzL6P7ULQSzOXTyIcK2enrnubzgWbm0bmY5ausDWtLYNzaGbhR7RiTPB5vCUSzOrX1TctXJ34BOQ_xupzO5wiZI0X7ylvt719FjDfl_BhzxRSNcTrruQxdsabbJbnrJwk3xRlbkZH0tz3lx57ARGJJjlH_L5KHvNrTULF1JA=w1280" /></div>
+            <div class="news-body">
+              <h3>JPL TALENTS 2021</h3>
+              <p>Featured for the development of a soil-composition estimation model.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-thumb"><img loading="lazy" alt="Multi-Agent Motion Planning"
+              src="https://lh3.googleusercontent.com/sitesv/AA5AbUAahiSaTT5FhpOP_NHw9-y4AWZiUSyEYWskOebJLvv3DUJN9v_vC76uS9QN78batN7ZTOgCNfDXXgLAfSTcOprYEQlO-CqgkH_7gvdnz3jwsiw2cnEYldrX1NjiZL3DnEw4BcfC9VmyW2fSmJMYMyLwawmfb-OYbOIemPqvPDaq4DIpp-xLGa0p2XQrlfeh7hAYRp26IudApoksPPztXHetwNY6FiXW=w1280" /></div>
+            <div class="news-body">
+              <h3>Multi-Agent Motion Planning using Deep Learning</h3>
+              <p>Deep-learning numerical model demonstrating 1000&times; the computational efficiency of the mathematical counterpart.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-thumb"><img loading="lazy" alt="GSAW Best Presentation Award 2019"
+              src="https://lh3.googleusercontent.com/sitesv/AA5AbUAOljvbSV1bLyQHyagxPq4uS6Te06HfpWX536HJ0jUqXnIsNBoLsPb-qToAe-NC5dKZKkxXDuOWOaBX5hz2OAKB73-KimiA-dNFECRa2OvLl8iPNESb4lhohwcsZUhqsAYVn5gQutF0VbwtKF3kPM4L3dNHngK90E1z2B0WRopY15yULO3Pz0EuSmp20w2i-yMD9tLU=w1280" /></div>
+            <div class="news-body">
+              <h3>GSAW Best Presentation Award 2019</h3>
+              <p>Transforming unstructured data into insight for anomaly detection in exploration ground systems.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-thumb"><img loading="lazy" alt="JPL Explorer Award 2019"
+              src="https://lh3.googleusercontent.com/sitesv/AA5AbUCmzhA8bM_nlOFZddxFi5Ozu_MandtPj6ZshcOJUez5u2OKHuvQA2U0Du9iTTt8WedNCi33Lf_ti03X6MURgyTLMUQJ090P5qYCIE6mnDImBy5nt7PbTNe_Y0OSCs_7q8ke6fMC3e46_H1AZYN4TdYnucCjeLNadtjS2ZTxYZxmgvFNZEH1XDlVRMOD2UTU01xVkOjnrq9jf1zesoT241VychWbQ7D0=w1280" /></div>
+            <div class="news-body">
+              <h3>JPL Explorer Award 2019</h3>
+              <p>Scientific and technical excellence in deploying new technologies for operations at Kennedy Space Center.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-thumb"><img loading="lazy" alt="Beer Goggles for Your Brain"
+              src="https://lh3.googleusercontent.com/sitesv/AA5AbUB6Uvq3BpBrINzPA581Qo9S-rRDBKDQNQ3qOZknYlEylfrJeLSHj-7c6vBnEU8RV3XdylWkYKPbAGBoRV213hLJvEGotTIecp6uszwbKr3tOnkgZEfhmKwgYbH4sd0PSInM9kMJVhREK3By-GlYR6SEyHZ1YJD84bxmOXHgoscTGV9SHfkg2BiKj7za8Z6zkkegvlWfD_f9XHw3lBBipwzGVxDjsUqo=w1280" /></div>
+            <div class="news-body">
+              <h3>Beer Goggles for Your Brain</h3>
+              <p>Electronic scalp stimulation makes faces appear more attractive (<em>New Scientist</em>).</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-thumb"><img loading="lazy" alt="Seoul Digital Forum"
+              src="https://lh3.googleusercontent.com/sitesv/AA5AbUDJ66uovb5hc5q4V9VxbfpTYiAj4-XC0z7Gksb2m9JvmHCQqkRdcALEtrAM3qtYTkx9oyQJMG6zWlOFxuaWygkdxdt-EjuNSSLhxi7C-Xts-HuIU03qX-ze9UX3ko05VtJhkBP8AdMtUkscuhzuwcRn94O4dJgDeN2kDcYJG7VBnsscTj6NgP35uQ5Fpj-PQATxhrIDr3v94QSiA1UG79FR_RbtvBYa=w1280" /></div>
+            <div class="news-body">
+              <h3>Seoul Digital Forum</h3>
+              <p>Wearable technology for Alzheimer's disease.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-thumb"><img loading="lazy" alt="Wearable for Alzheimer's Patients"
+              src="https://lh3.googleusercontent.com/sitesv/AA5AbUBZ8XXljaYBw6--bHyWb3vipHVhQhlfdEi28tig0uoMA2ZZDu3obDqP3_wqIWFVQCO2PImQKlM-PcR_eyuIjdn6irlBdIzkSEY0_UFiO6hGlLLE8Dohon0g1HwBHzJj66NZf1SCFFAfWZ8Bw1c-u99a-DvZ_UPHe1QOeetutwOzphs4lvGOk0rsVEpyrz5GvabZbWMX9MX6poNH6xJwoR1kCnQE4g=w1280" /></div>
+            <div class="news-body">
+              <h3>Wearable for Alzheimer's Patients</h3>
+              <p>Brain signal-processing platform and wearable device, with large-scale Class III medical device trials.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-thumb"><img loading="lazy" alt="Social Synchronicity"
+              src="https://lh3.googleusercontent.com/sitesv/AA5AbUBBEICpcrwxRWqzdJKdSGueZRPROVO_HodlfBFs4tIBlzUPYQvtWRstBk9REG4aKCmcncMIEv9idxCvmEZC5Y33MckTLdRiQXx1McrQnLcFoaKngOdxpzWUFTvwvltb2OnBFRnnlTsqP7z56tXTG4964H2qaE7fa0s6BjCuXsWKlhNOtknINQc3oyCmPEzUQWqd_skL6zV96odGUQIFfeLt-uoi-ff0=w1280" /></div>
+            <div class="news-body">
+              <h3>Social Synchronicity</h3>
+              <p>A measurable connection between bonding and matched movements.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="eyebrow"><span>04</span> &nbsp;/&nbsp; Projects &amp; Publications</p>
+        <h2>Grouped by research area.</h2>
 
         <article class="project">
-          <h3>Groundwater and land deformation models</h3>
+          <div class="project-head">
+            <h3>Software Lifecycle Improvement &amp; Modernization (SLIM)</h3>
+            <p class="project-sub">NASA AMMOS &middot; automated integration of software best practices using LLMs</p>
+          </div>
           <ul class="pub-list">
-            <li>Kyongsik Yun, Kyra Kim, Anshuman Pradhan, John Reager, Zhen Liu, Michael Turmon, Alexander Huyen, Thomas Lu,
-              Venkat Chandrasekaran, Andrew Stuart. "Filling the gap: Estimation of soil composition using InSAR, groundwater
-              depth, and precipitation data in California's Central Valley." <em>AGU</em>, 2021.</li>
-            <li>Anshuman Pradhan, Dillon Holder, Kyra Kim, Kyongsik Yun, Zhen Liu, John Reager, Michael Turmon, Venkat
-              Chandrasekaran, Andrew Stuart. "Spatio-temporal Gaussian Process Modeling of Land Subsidence with Well Water
-              Level and InSAR Data." <em>AGU</em>, 2021.</li>
+            <li>Lead developer. Deployed across MGSS, HySDS, F Prime, Opera, and SDS.
+              <a href="https://nasa-ammos.github.io/slim/" target="_blank" rel="noopener">site</a></li>
+            <li>JPL Voyager Award (2024) &mdash; SLIM using large language models.</li>
           </ul>
         </article>
 
         <article class="project">
-          <h3>Deep Space Network time series compression, anomaly detection, and comparison</h3>
+          <div class="project-head">
+            <h3>Mars Sample Return &amp; Next-Generation Avionics</h3>
+            <p class="project-sub">Flight software &middot; Snapdragon &amp; HPSC</p>
+          </div>
           <ul class="pub-list">
-            <li>Kyongsik Yun, Rishi Verma, Umaa Rebbapragada. "Time Series Comparisons in Deep Space Network." <em>AIAA-ASCEND</em>, 2021.</li>
+            <li>Flight software engineering for the MSR sample retrieval lander.</li>
+            <li>Onboard software implementation for next-generation avionics (Snapdragon, HPSC).</li>
           </ul>
         </article>
 
         <article class="project">
-          <h3>Wildfire segmentation, tracking, and forecasting</h3>
+          <div class="project-head">
+            <h3>Groundwater &amp; Land Deformation Models</h3>
+            <p class="project-sub">InSAR &middot; groundwater depth &middot; precipitation</p>
+          </div>
+          <img class="project-img" loading="lazy" alt="Groundwater and land deformation"
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUC0Z0_h0ORo_tNQTyguVOABK4OIe430nEeC0kG_6mrEIi6CefX9mFM5SYxXxv_mnuPQ5snZAXGsdbRbACYQf0DIhPUIyqX2UUoQ3vzCTcpOtJmmQZnmIQ84imXbt8B--nP6k2NN2zTrg6OJzv85mAGEd4_W0uEIKw6OiRnJJq8pJ1ld4JTbxsqAyNCQS6tseWvOk6BkguF4L1bPlfBfYCN9-Heu_g=w1280" />
           <ul class="pub-list">
-            <li>Nicholas LaHaye, Kyongsik Yun, Huikyo Lee, Alex Goodman, Krzysztof Gorski, Michael J. Garay, Olga Kalashnikova.
-              "Identification of wildfires and smoke plumes using multi-sensor input and unsupervised and supervised machine
-              learning for improved spatiotemporal coverage and facilitation of automated tracking." <em>AGU</em>, 2021.</li>
-            <li>Stavros, E. Natasha, Ali Agha, Allen Sirota, Marco Quadrelli, Kamak Ebadi, and Kyongsik Yun. "Smoke Sky —
-              Exploring New Frontiers of Unmanned Aerial Systems for Wildland Fire Science and Applications."
-              <em>arXiv:1911.08288</em>, 2019.</li>
+            <li>Yun, K., Kim, K., Pradhan, A., Reager, J., Liu, Z., Turmon, M., Huyen, A., Lu, T., Chandrasekaran, V., Stuart, A. "Filling the gap: Estimation of soil composition using InSAR, groundwater depth, and precipitation data in California's Central Valley." <em>AGU</em>, 2021.</li>
+            <li>Pradhan, A., Holder, D., Kim, K., Yun, K., Liu, Z., Reager, J., Turmon, M., Chandrasekaran, V., Stuart, A. "Spatio-temporal Gaussian Process Modeling of Land Subsidence with Well Water Level and InSAR Data." <em>AGU</em>, 2021.</li>
           </ul>
         </article>
 
         <article class="project">
-          <h3>Multi-spacecraft trajectory planning using deep learning</h3>
+          <div class="project-head">
+            <h3>Deep Space Network &mdash; Time-Series Compression &amp; Anomaly Detection</h3>
+            <p class="project-sub">telemetry &middot; anomaly detection &middot; comparison</p>
+          </div>
+          <img class="project-img" loading="lazy" alt="Deep Space Network time series"
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUB1TlDSjvniqDgKUB9oa2mpnr8E7GtZcF-sy_aKHzHLqBiXfvOSVR27F_jKeXbWbIzt8fuPUL6WkWbdEuw-ZSny84-ToyJLEnBE6-Pkk8jdtFfb6WKheCtxL636hed30mkZwlyJQovShBy9ck0vEBeuaCqoxc1mBs2b0OW3Vd-YNbdvc29ocFtCQ2A8rSNNi0NnVO6AmjsIX-TJlDgSUmiwMiE8_A=w1280" />
           <ul class="pub-list">
-            <li>Jonathan Sabol, Kyongsik Yun, Muhammad Adil, Changrak Choi. "Machine Learning Based Relative Orbit Transfer
-              for Formation Flying Swarms of Spacecraft." <em>IEEE Aerospace</em>, 2022.</li>
-            <li>Yun, Kyongsik, Changrak Choi, Ryan Alimo, Anthony Davis, Linda Forster, Amir Rahmani, Muhammad Adil, and
-              Ramtin Madani. "Multi-Agent Motion Planning using Deep Learning for Space Applications." <em>ASCEND 2020</em>,
-              p. 4233.</li>
+            <li>Yun, K., Verma, R., Rebbapragada, U. "Time Series Comparisons in Deep Space Network." <em>AIAA-ASCEND</em>, 2021.</li>
+            <li>Monitoring spacecraft data to detect anomalies. 2025.</li>
           </ul>
         </article>
 
         <article class="project">
-          <h3>Deep learning hardware acceleration</h3>
+          <div class="project-head">
+            <h3>Wildfire Segmentation, Tracking &amp; Forecasting</h3>
+            <p class="project-sub">multi-sensor &middot; self-supervised ML &middot; UAS</p>
+          </div>
+          <img class="project-img" loading="lazy" alt="Wildfire segmentation"
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUCl0ZfpD-bE1j1jJmmYXuLKXNHH-xSKVn0dneIFpQu_ZF9e2sCU9wl3LLNJ1DHwFJShb7PQcDYB1fBp4EOwLSRln-IPNpkllihK8dML9xSU4reKaZhSKhLUP5E7p3fLenWbKa95OHGRCxGiJG6Z5VWxxZUeivPXvk5WEf84jxLOsVb0V73xQsrqrOfHVqsboPoSjcNa23cQ1O29Jv8kj7vlmKg4YQ=w1280" />
           <ul class="pub-list">
-            <li>Yun, Kyongsik. "Accelerating autonomy in space using memory-centric architectures for deep neural networks."
-              2019.</li>
+            <li>LaHaye, N., Yun, K., et al. "Self-supervised ML for smoke-plume and active-fire identification from the FIREX-AQ dataset." 2025.</li>
+            <li>LaHaye, N., Yun, K., Lee, H., Goodman, A., Gorski, K., Garay, M. J., Kalashnikova, O. "Identification of wildfires and smoke plumes using multi-sensor input and unsupervised/supervised ML." <em>AGU</em>, 2021.</li>
+            <li>Stavros, E. N., Agha, A., Sirota, A., Quadrelli, M., Ebadi, K., Yun, K. "Smoke Sky &mdash; Exploring New Frontiers of Unmanned Aerial Systems for Wildland Fire Science." <em>arXiv:1911.08288</em>, 2019.</li>
           </ul>
         </article>
 
         <article class="project">
-          <h3>AI for first responders</h3>
+          <div class="project-head">
+            <h3>Multi-Spacecraft Trajectory Planning (Deep Learning)</h3>
+            <p class="project-sub">formation flying &middot; constraint-informed learning</p>
+          </div>
+          <img class="project-img" loading="lazy" alt="Multi-spacecraft trajectory planning"
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUA21F90R7ELnCF9VuiiNbZ60XrX2uDoD4RMY1ykW7sBbgAstl1riFYll-N3IAIRKFrIpFTegtEuH_tvMJ89WKtsi0tXTGgJ-g5UHcIrJ-k22yrr1LTI34R_tAFfYMW3azHtdKDh2ujrwdWAE9PDWE41SuUOJL8jak1XimjZAwq-nIEjWq1UVAGFJ3TeSe7ge1lJ08fhTRaAb23i7oLiIvYZQnFe6tM3=w1280" />
           <ul class="pub-list">
-            <li>Huyen, Alexander, Kyongsik Yun, Sky De Baun, Samuel Wiggins, Jessi Bustos, Thomas Lu, Edward Chow. "Dynamic
-              fire and smoke detection and classification for flashover prediction." <em>Pattern Recognition and Tracking
-              XXXII</em>, vol. 11735, p. 1173502. SPIE, 2021.</li>
-            <li>Yun, Kyongsik, Thomas Lu, Alexander Huyen. "Transforming unstructured voice and text data into insight for
-              paramedic emergency service using recurrent and convolutional neural networks." <em>Pattern Recognition and
-              Tracking XXXI</em>, vol. 11400, p. 1140006. SPIE, 2020.</li>
-            <li>Lu, Thomas, Alexander Huyen, Luan Nguyen, Joseph Osborne, Sarah Eldin, Kyongsik Yun. "Optimized training of
-              deep neural network for image analysis using synthetic objects and augmented reality." <em>Pattern Recognition
-              and Tracking XXX</em>, vol. 10995, p. 109950I. SPIE, 2019.</li>
-            <li>Yun, Kyongsik, Kevin Yu, Joseph Osborne, Sarah Eldin, Luan Nguyen, Alexander Huyen, Thomas Lu. "Improved
-              visible to IR image transformation using synthetic data augmentation with cycle-consistent adversarial
-              networks." <em>Pattern Recognition and Tracking XXX</em>, vol. 10995, p. 1099502. SPIE, 2019.</li>
-            <li>Yun, Kyongsik, Luan Nguyen, Tuan Nguyen, Doyoung Kim, Sarah Eldin, Alexander Huyen, Thomas Lu, Edward Chow.
-              "Small target detection for search and rescue operations using distributed deep learning and synthetic data
-              generation." <em>Pattern Recognition and Tracking XXX</em>, vol. 10995, p. 1099507. SPIE, 2019.</li>
-            <li>Yun, Kyongsik, Alexander Huyen, Thomas Lu. "Deep neural networks for pattern recognition."
-              <em>arXiv:1809.09645</em>, 2018.</li>
-            <li>Yun, Kyongsik, Joseph Osborne, Madison Lee, Thomas Lu, Edward Chow. "Automatic speech recognition for launch
-              control center communication using recurrent neural networks with data augmentation and custom language model."
-              <em>Disruptive Technologies in Information Sciences</em>, vol. 10652, p. 1065202. SPIE, 2018.</li>
-            <li>Yun, Kyongsik, Thomas Lu, Edward Chow. "Occluded object reconstruction for first responders with augmented
-              reality glasses using conditional generative adversarial networks." <em>Pattern Recognition and Tracking
-              XXIX</em>, vol. 10649, p. 106490T. SPIE, 2018.</li>
-            <li>Yun, Kyongsik, Jessi Bustos, Thomas Lu. "Predicting rapid fire growth (flashover) using conditional generative
-              adversarial networks." <em>Electronic Imaging</em> 2018, no. 9 (2018): 127-1.</li>
-            <li>Yun, Kyongsik. "AI for the future of first responders." 2017.</li>
+            <li>Constraint-informed learning for warm-starting trajectory optimization. 2025.</li>
+            <li>Sabol, J., Yun, K., Adil, M., Choi, C. "Machine Learning Based Relative Orbit Transfer for Formation Flying Swarms of Spacecraft." <em>IEEE Aerospace</em>, 2022.</li>
+            <li>Yun, K., Choi, C., Alimo, R., Davis, A., Forster, L., Rahmani, A., Adil, M., Madani, R. "Multi-Agent Motion Planning using Deep Learning for Space Applications." <em>ASCEND 2020</em>, p. 4233.</li>
           </ul>
         </article>
 
         <article class="project">
-          <h3>Machine learning prediction and classification in medical data</h3>
+          <div class="project-head">
+            <h3>Entry, Descent &amp; Landing (EDL)</h3>
+            <p class="project-sub">GNC &amp; LVS on multi-core processors</p>
+          </div>
           <ul class="pub-list">
-            <li>Yun, Kyongsik, Jihoon Oh, Tae Ho Hong, Eun Young Kim. "Prediction of Mortality in Surgical Intensive Care
-              Unit Patients Using Machine Learning Algorithms." <em>Frontiers in Medicine</em> 8 (2021): 406.</li>
-            <li>Yun, Kyongsik, Jeong Seok Lee, Eun Young Kim, Himanshu Chandra, Baek-Lok Oh, Jihoon Oh. "Severe COVID-19
-              Illness: Risk Factors and Its Burden on Critical Care Resources." <em>Frontiers in Medicine</em> 7 (2020): 767.</li>
-            <li>Oh, Jihoon, Kyongsik Yun, Jeong-Ho Chae, Tae-Suk Kim. "Association Between Macronutrients Intake and
-              Depression in the United States and South Korea." <em>Frontiers in Psychiatry</em> 11 (2020): 207.</li>
-            <li>Oh, Jihoon, Baek-Lok Oh, Kyong-Uk Lee, Jeong-Ho Chae, Kyongsik Yun. "Identifying schizophrenia using
-              structural MRI with a deep learning algorithm." <em>Frontiers in Psychiatry</em> 11 (2020): 16.</li>
-            <li>Oh, Jihoon, Kyongsik Yun, Uri Maoz, Tae-Suk Kim, Jeong-Ho Chae. "Identifying depression in the National
-              Health and Nutrition Examination Survey data using a deep learning algorithm." <em>Journal of Affective
-              Disorders</em> 257 (2019): 623–631.</li>
-            <li>Oh, Jihoon, Kyongsik Yun, Ji-Hyun Hwang, Jeong-Ho Chae. "Classification of suicide attempts through a machine
-              learning algorithm based on multiple systemic psychiatric scales." <em>Frontiers in Psychiatry</em> 8 (2017): 192.</li>
+            <li>Evaluation of GNC and LVS deployment on next-generation multi-core processors for EDL operations. 2025.</li>
           </ul>
         </article>
 
         <article class="project">
-          <h3>Neuropsychiatric disease treatment using neuromodulation</h3>
+          <div class="project-head">
+            <h3>Deep Learning Hardware Acceleration</h3>
+            <p class="project-sub">memory-centric architectures &middot; space autonomy</p>
+          </div>
+          <img class="project-img" loading="lazy" alt="Deep learning hardware acceleration"
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUDQApgLwPANK2cIVbNbStS_PrjYJdIf9dAT9HiQn93KVQQJ8SjiJ_GzUA6NQZpicN6byy1cqqZIu99ATm9tmmiUyfarxYFir4Q-2nciyCb1PYn8GukPp9QU5_f_dYcNUbLQjV2i0h3FlcCntSFM4auOxLHyrvOh00SkfxMwjTzRiGI3_rHYaZX9WgdJ_Gc3pfZE_cYKuLFG2V3vfH0cZCFmwvJDpHS=w1280" />
           <ul class="pub-list">
-            <li>Tavakoli, Amir V., and Kyongsik Yun. "Transcranial alternating current stimulation (tACS) mechanisms and
-              protocols." <em>Frontiers in Cellular Neuroscience</em> 11 (2017): 214.</li>
-            <li>Kyongsik Yun, In-Uk Song, Yong An Chung. "Changes in cerebral glucose metabolism after 3 weeks of noninvasive
-              electrical stimulation of mild cognitive impairment patients." <em>Alzheimer's Research and Therapy</em>, 2016.</li>
-            <li>Myeongseop Song, Yungjae Shin, Kyongsik Yun. "Beta-frequency EEG activity increased during transcranial direct
-              current stimulation." <em>Neuroreport</em>, 2014.</li>
-            <li>Vikram Chib*, Kyongsik Yun*, Hidehiko Takahashi, Shinsuke Shimojo. "Noninvasive Remote Activation of the
-              Ventral Midbrain by Transcranial Direct Current Stimulation of Prefrontal Cortex."
-              <em>Translational Psychiatry</em>, 2013.</li>
+            <li>Yun, K. "Accelerating autonomy in space using memory-centric architectures for deep neural networks." 2019.</li>
           </ul>
         </article>
 
         <article class="project">
-          <h3>Neural signal processing</h3>
+          <div class="project-head">
+            <h3>AI for First Responders</h3>
+            <p class="project-sub">fire/smoke detection &middot; AR &middot; speech recognition</p>
+          </div>
+          <img class="project-img" loading="lazy" alt="AI for first responders"
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUCHy406DKYinb6aA0q1mrTf2IXmzyfx9R0MIvozpmJUYVcA5bcKl_YoAASCSka7iqOYmAMwQQSR-T5M36I4r7g1if3FCb5IgfCK7iOxeQ0E2Zw6fJ7XTmpiTuKRy0pVvM9xAq4vyJklLWSUCkQXesD1IJT7QcGYnLgPa6Zjz0_MvaSQwZwQkfiWVdtT7jZ0cFepPge76sZ5gWDpM27SknH6PgKBZchy=w1280" />
           <ul class="pub-list">
-            <li>Yun, Kyongsik, Joydeep Bhattacharya, Simone Sandkühler, Yong-Jun Lin, Sunao Iwaki, Shinsuke Shimojo. "Causally
-              linking neural dominance to perceptual dominance in a multisensory conflict." <em>NeuroReport</em> 31, no. 13
-              (2020): 991–998.</li>
-            <li>Kim, Hoh, Jerald D. Kralik, Kyongsik Yun, Yong-an Chung, Jaeseung Jeong. "Neural correlates of public apology
-              effectiveness." <em>Frontiers in Human Neuroscience</em> 13 (2019): 229.</li>
-            <li>Kyongsik Yun, Adrian Stoica. "Improved target recognition response using collaborative brain computer
-              interfaces." <em>IEEE SMC</em>, 2016.</li>
-            <li>Dongil Chung, Kyongsik Yun, Jaeseung Jeong. "Decoding covert motivations of free riding and cooperation from
-              multi-feature pattern analysis of EEG signals." <em>Social Cognitive and Affective Neuroscience</em>, 2015.</li>
-            <li>Lee, Jaewon, and Kyongsik Yun. "Alcohol Reduces Cross-Frequency Theta-Phase Gamma-Amplitude Coupling in
-              Resting Electroencephalography." <em>Alcoholism: Clinical and Experimental Research</em> 38, no. 3 (2014):
-              770–776.</li>
-            <li>Kyongsik Yun. "On the same wavelength: face-to-face communication increases interpersonal neural
-              synchronization." <em>Journal of Neuroscience</em>, 2013.</li>
-            <li>Kyongsik Yun, Katsumi Watanabe, Shinsuke Shimojo. "Interpersonal body and neural synchronization as a marker
-              of implicit social interaction." <em>Scientific Reports</em>, 2012.</li>
+            <li>Huyen, A., Yun, K., De Baun, S., Wiggins, S., Bustos, J., Lu, T., Chow, E. "Dynamic fire and smoke detection and classification for flashover prediction." <em>SPIE Pattern Recognition &amp; Tracking XXXII</em>, vol. 11735, 2021.</li>
+            <li>Yun, K., Lu, T., Huyen, A. "Transforming unstructured voice and text data into insight for paramedic emergency service using RNNs/CNNs." <em>SPIE</em> vol. 11400, 2020.</li>
+            <li>Lu, T., Huyen, A., Nguyen, L., Osborne, J., Eldin, S., Yun, K. "Optimized training of DNNs for image analysis using synthetic objects and augmented reality." <em>SPIE</em> vol. 10995, 2019.</li>
+            <li>Yun, K., Yu, K., Osborne, J., Eldin, S., Nguyen, L., Huyen, A., Lu, T. "Improved visible-to-IR image transformation using synthetic data augmentation with cycle-consistent adversarial networks." <em>SPIE</em> vol. 10995, 2019.</li>
+            <li>Yun, K., Nguyen, L., Nguyen, T., Kim, D., Eldin, S., Huyen, A., Lu, T., Chow, E. "Small target detection for search and rescue using distributed deep learning and synthetic data generation." <em>SPIE</em> vol. 10995, 2019.</li>
+            <li>Yun, K., Huyen, A., Lu, T. "Deep neural networks for pattern recognition." <em>arXiv:1809.09645</em>, 2018.</li>
+            <li>Yun, K., Osborne, J., Lee, M., Lu, T., Chow, E. "Automatic speech recognition for launch control center communication using RNNs with data augmentation and custom LM." <em>SPIE</em> vol. 10652, 2018.</li>
+            <li>Yun, K., Lu, T., Chow, E. "Occluded object reconstruction for first responders with AR glasses using conditional GANs." <em>SPIE</em> vol. 10649, 2018.</li>
+            <li>Yun, K., Bustos, J., Lu, T. "Predicting rapid fire growth (flashover) using conditional GANs." <em>Electronic Imaging</em> 2018 (9): 127-1.</li>
+            <li>Yun, K. "AI for the future of first responders." 2017.</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Machine Learning for Medical Data</h3>
+            <p class="project-sub">clinical prediction &middot; imaging &middot; surveys</p>
+          </div>
+          <img class="project-img" loading="lazy" alt="ML in medical data"
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUBnEEO6h4REgY0cJykCamQdT-6EsLx8O4_J92ZvYDloPwLRm2zDFWwklrLdTDY-jiy9gKjbc5yQ2KS4J_QxJ8x_KQjM6jQx7HSudjNKHbRxfPznK5DBkqUbx7Eec0cRUWP57kpiZLW45dsad3EY37Khfgnden75yHVliUz_FiPRRNcZgN_amA8OC1poBRbLTKMQmDVhXQEILlFHojTZBq0450kO9sbv=w1280" />
+          <ul class="pub-list">
+            <li>Yun, K., Oh, J., Hong, T. H., Kim, E. Y. "Prediction of Mortality in Surgical Intensive Care Unit Patients Using Machine Learning Algorithms." <em>Frontiers in Medicine</em> 8 (2021): 406.</li>
+            <li>Yun, K., Lee, J. S., Kim, E. Y., Chandra, H., Oh, B.-L., Oh, J. "Severe COVID-19 Illness: Risk Factors and Its Burden on Critical Care Resources." <em>Frontiers in Medicine</em> 7 (2020): 767.</li>
+            <li>Oh, J., Yun, K., Chae, J.-H., Kim, T.-S. "Association Between Macronutrients Intake and Depression in the United States and South Korea." <em>Frontiers in Psychiatry</em> 11 (2020): 207.</li>
+            <li>Oh, J., Oh, B.-L., Lee, K.-U., Chae, J.-H., Yun, K. "Identifying schizophrenia using structural MRI with a deep-learning algorithm." <em>Frontiers in Psychiatry</em> 11 (2020): 16.</li>
+            <li>Oh, J., Yun, K., Maoz, U., Kim, T.-S., Chae, J.-H. "Identifying depression in NHANES using a deep-learning algorithm." <em>Journal of Affective Disorders</em> 257 (2019): 623&ndash;631.</li>
+            <li>Oh, J., Yun, K., Hwang, J.-H., Chae, J.-H. "Classification of suicide attempts through a machine-learning algorithm based on multiple systemic psychiatric scales." <em>Frontiers in Psychiatry</em> 8 (2017): 192.</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Neuropsychiatric Treatment via Neuromodulation</h3>
+            <p class="project-sub">tACS &middot; tDCS &middot; clinical mechanisms</p>
+          </div>
+          <img class="project-img" loading="lazy" alt="Neuromodulation"
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUDAeOIw1K7hU3ogVbFsBxIdz0pLTjn0vK79I-jTqPz1UvGY07P0OvfR4D74MD00wYLoav4NlnbRWfwca_PwRkV2N1XYbQR6x_nHPW_zejqUrHX1JOQlx01228rw3gt_9FWaZfz9E14ixBy_F3t0Exu5aZDuSYwbxhYap9jRrbhOcEMSLom-W6erYUqVJuwkWQ=w1280" />
+          <ul class="pub-list">
+            <li>Tavakoli, A. V., Yun, K. "Transcranial alternating current stimulation (tACS) mechanisms and protocols." <em>Frontiers in Cellular Neuroscience</em> 11 (2017): 214.</li>
+            <li>Yun, K., Song, I.-U., Chung, Y. A. "Changes in cerebral glucose metabolism after 3 weeks of noninvasive electrical stimulation of mild cognitive impairment patients." <em>Alzheimer's Research &amp; Therapy</em>, 2016.</li>
+            <li>Song, M., Shin, Y., Yun, K. "Beta-frequency EEG activity increased during tDCS." <em>Neuroreport</em>, 2014.</li>
+            <li>Chib, V.*, Yun, K.*, Takahashi, H., Shimojo, S. "Noninvasive remote activation of the ventral midbrain by tDCS of prefrontal cortex." <em>Translational Psychiatry</em>, 2013.</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Neural Signal Processing</h3>
+            <p class="project-sub">EEG &middot; BCI &middot; neural synchrony</p>
+          </div>
+          <img class="project-img" loading="lazy" alt="Neural signal processing"
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUCxXpdU2UwxSJGoM4gElJB5FpQoLdRLekhOVzfEvoMK0IjaMVR02FPdGcwmwV044MuK4ExtkOmjf2lE3raASH2NChKPuL-mUxEMfJSK2MzfZC5HR0Urj8wbR3Fs25KjsIk20OTG-DPo5zHqevwSTBY4D8vuhoFRpldfrPggacwU9oE4RFqad5cu2eQlxJI=w1280" />
+          <ul class="pub-list">
+            <li>Yun, K., Bhattacharya, J., Sandk&uuml;hler, S., Lin, Y.-J., Iwaki, S., Shimojo, S. "Causally linking neural dominance to perceptual dominance in a multisensory conflict." <em>NeuroReport</em> 31, 13 (2020): 991&ndash;998.</li>
+            <li>Kim, H., Kralik, J. D., Yun, K., Chung, Y., Jeong, J. "Neural correlates of public apology effectiveness." <em>Frontiers in Human Neuroscience</em> 13 (2019): 229.</li>
+            <li>Yun, K., Stoica, A. "Improved target recognition response using collaborative brain&ndash;computer interfaces." <em>IEEE SMC</em>, 2016.</li>
+            <li>Chung, D., Yun, K., Jeong, J. "Decoding covert motivations of free riding and cooperation from multi-feature pattern analysis of EEG signals." <em>Social Cognitive &amp; Affective Neuroscience</em>, 2015.</li>
+            <li>Lee, J., Yun, K. "Alcohol reduces cross-frequency theta-phase gamma-amplitude coupling in resting EEG." <em>Alcoholism: Clinical &amp; Experimental Research</em> 38, 3 (2014): 770&ndash;776.</li>
+            <li>Yun, K. "On the same wavelength: face-to-face communication increases interpersonal neural synchronization." <em>Journal of Neuroscience</em>, 2013.</li>
+            <li>Yun, K., Watanabe, K., Shimojo, S. "Interpersonal body and neural synchronization as a marker of implicit social interaction." <em>Scientific Reports</em>, 2012.</li>
           </ul>
         </article>
       </div>
     </section>
 
-    <section id="outreach" class="section">
+    <!-- OUTREACH -->
+    <section id="outreach" class="section section-alt">
       <div class="container">
-        <h2>Outreach</h2>
-        <p>
-          Kyongsik speaks and writes regularly about AI, neuroscience, and brain-inspired technologies — including invited
-          talks, press features, and community engagement. Selected appearances include the Seoul Digital Forum, New Scientist
-          features on noninvasive brain stimulation, and JPL TALENTS.
-        </p>
-        <p>
-          For collaboration, speaking, or media inquiries, please reach out via
-          <a href="https://www.linkedin.com/in/kyongsikyun/" target="_blank" rel="noopener">LinkedIn</a>
-          or
-          <a href="https://scholar.google.com/citations?user=K1tS6aQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.
-        </p>
+        <p class="eyebrow"><span>05</span> &nbsp;/&nbsp; Outreach &amp; Contact</p>
+        <h2>Talks, open positions, and collaboration.</h2>
+        <div class="outreach-grid">
+          <div>
+            <h3>Speaking &amp; Press</h3>
+            <p>Invited talks and media appearances have included the Seoul Digital Forum, New Scientist features on
+              noninvasive brain stimulation, and JPL TALENTS.</p>
+          </div>
+          <div>
+            <h3>Open Positions</h3>
+            <p>Postdoctoral and research opportunities at JPL are posted on my
+              <a href="https://www.kyongsikyun.com/open-positions" target="_blank" rel="noopener">open positions</a> page
+              and via <a href="https://www.linkedin.com/in/kyongsikyun/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p>
+              <a href="mailto:kyongsik.yun@jpl.nasa.gov">kyongsik.yun@jpl.nasa.gov</a><br />
+              <a href="https://scholar.google.com/citations?user=0651twUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a> &middot;
+              <a href="https://www.linkedin.com/in/kyongsikyun/" target="_blank" rel="noopener">LinkedIn</a> &middot;
+              <a href="https://www.jpl.nasa.gov/site/research/kyun/" target="_blank" rel="noopener">JPL profile</a>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container footer-inner">
       <p>&copy; <span id="year">2026</span> Kyongsik Yun</p>
+      <p class="footer-meta">Built with plain HTML &amp; CSS &middot; hosted on GitHub Pages</p>
     </div>
   </footer>
 
