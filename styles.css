@@ -151,7 +151,7 @@ h3 {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  grid-template-columns: 220px minmax(0, 1fr);
   gap: clamp(1.5rem, 4vw, 3rem);
   align-items: start;
 }
