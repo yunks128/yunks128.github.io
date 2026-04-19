@@ -353,6 +353,17 @@ h3 {
   background: var(--accent);
 }
 .pub-list em { color: var(--ink); font-style: italic; }
+.pub-list a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.15s; }
+.pub-list a:hover { border-bottom-color: var(--accent); }
+.pub-note {
+  font-size: 0.95rem;
+  color: var(--ink-2);
+  margin: 0 0 2rem;
+  padding: 0.8rem 1rem;
+  border-left: 2px solid var(--accent);
+  background: var(--bg-alt);
+}
+.pub-note a { color: var(--accent); }
 
 /* ---------- Outreach ---------- */
 .outreach-grid {
