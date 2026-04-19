@@ -172,6 +172,35 @@ h3 {
 }
 .hero-text p { margin: 0 0 1.1rem; color: var(--ink-2); }
 
+.bio-more { margin: 0 0 1.1rem; }
+.bio-more > summary {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  border-bottom: 1px solid var(--rule);
+  padding: 0.1rem 0 0.15rem;
+  list-style: none;
+  user-select: none;
+  transition: border-color 0.15s;
+}
+.bio-more > summary::-webkit-details-marker { display: none; }
+.bio-more > summary::after {
+  content: "→";
+  font-family: var(--mono);
+  transition: transform 0.2s;
+}
+.bio-more[open] > summary::after { transform: rotate(90deg); }
+.bio-more > summary:hover { border-bottom-color: var(--accent); }
+.bio-more .less-label { display: none; }
+.bio-more[open] .more-label { display: none; }
+.bio-more[open] .less-label { display: inline; }
+.bio-more p { margin: 1rem 0 0; color: var(--ink-2); }
+
 .hero-portrait {
   position: relative;
   border: 1px solid var(--rule);
