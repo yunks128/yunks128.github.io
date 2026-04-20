@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kyongsikyun.com/sitemap.xml
+Sitemap: https://yunks128.github.io/sitemap.xml
