@@ -1,0 +1,5 @@
+# Unpublished blog drafts — kept local so GitHub Pages never serves them
+drafts/
+
+# macOS
+.DS_Store
